@@ -1,6 +1,6 @@
 <?php
 echo('
-<script src="../../wp-content/themes/pieces/d3/d3.v3.min.js"></script>
+<script src="../../wp-content/themes/sudocity/d3/d3.v3.min.js"></script>
 <style>
 
 .link {
@@ -27,7 +27,7 @@ text {
 <script>
 
 // get the data
-d3.json("../../wp-content/themes/pieces/d3/notedata.php", function(error, links) {
+d3.json("../../wp-content/themes/sudocity/d3/notedata.php", function(error, links) {
 
 var nodes = {};
 var optog = 0;

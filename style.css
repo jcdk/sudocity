@@ -23,7 +23,6 @@ body {
 	font-weight: 400;
 	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 	line-height: 1.5;
-	background: #eee;
 	}
 
 /* Headings */
@@ -401,6 +400,7 @@ img[class*="attachment-"] {
 	background: #fff;
 	border-radius: 5px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    border: 1px solid #dbdbdb;
 	}
 
 /**
@@ -621,8 +621,8 @@ body.single .entry-content {
 .entry-footer {
 	margin: 0 -20px -20px;
 	padding: 15px 20px;
-	background: #f5f5f5;
-	border-top: 1px solid #f1f1f1;
+	border-top: 1px solid #dfdfdf;
+    border-radius: 0 0 5px;
 	}
 .cat-links,
 .tags-links {
@@ -987,6 +987,11 @@ body.single .entry-content {
  * 9.0 Responsive Styling
  * ----------------------------------------------------------------------------
  */
+@media screen and (min-width: 1200px) {
+    .container {
+         max-width: 100%;
+     }
+}
 @media screen and (max-width: 760px) {
 	.site-header,
 	.site-footer,
